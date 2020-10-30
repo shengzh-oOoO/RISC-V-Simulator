@@ -1,0 +1,3 @@
+g++ Simulation.cpp -c -o Sim.o ../myrv64isim/
+g++ Read_Elf.cpp -c -o Read.o ../myrv64isim/
+g++ Sim.o Read.o -o myrvsim
