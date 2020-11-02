@@ -1,0 +1,3 @@
+g++ Simulation.cpp -c -o Sim.o ../multiplecycle/
+g++ Read_Elf.cpp -c -o Read.o ../multiplecycle/
+g++ Sim.o Read.o -o mul_rv64isim

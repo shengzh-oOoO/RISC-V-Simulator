@@ -1,0 +1,3 @@
+g++ Simulation.cpp -c -o Sim.o ../pipeline/
+g++ Read_Elf.cpp -c -o Read.o ../pipeline/
+g++ Sim.o Read.o -o pipeline_rv64isim
